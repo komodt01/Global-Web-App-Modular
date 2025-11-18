@@ -2,6 +2,9 @@
 
 This project is a **refactored version** of my original Terraform Global Web App deployment. It introduces modular infrastructure-as-code design using Terraform modules, starting with a reusable `vpc_module`.
 
+This modular deployment is the base infrastructure layer for my ‘Global Web App Acceleration with CloudFront, Route 53, and WAF’ project.
+
+This repo focuses on the core multi-region Terraform layout only (VPCs, subnets, EC2). Higher-level services (CloudFront, WAF, global routing) are covered in a separate project.
 ---
 
 ## 🧱 Modularization Goals
